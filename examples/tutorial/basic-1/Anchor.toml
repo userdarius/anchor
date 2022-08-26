@@ -1,9 +1,9 @@
 [provider]
 cluster = "localnet"
-wallet = "~/.config/solana/id.json"
+wallet = "~/Users/darius/solana-wallets/test-keypair.json"
 
 [programs.localnet]
-basic_1 = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+basic_1 = "HEmLMhV6WKBMrz3uMS9K9VcJ8JwVMroqSPqhZVFxUdsF"
 
 [scripts]
 test = "yarn run mocha -t 1000000 tests/"
